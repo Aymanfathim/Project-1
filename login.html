@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 46px;
+            padding: 0 55px;
+            background: url(bgimg.jpg);
+            background-size: cover;
+            font-family: sans-serif;
+            font-size: 13px;
+        }
+
+        /* .title {
+            text-align: center;
+             padding: 50px 0 20px; 
+     } */
+
+        .title h1 {
+            margin: 0;
+            padding: 0;
+            color: aqua;
+            text-transform: uppercase;
+            font-size: 36px;
+        }
+
+        .container {
+            width: 80%;
+            /* height: 800px; */
+            background-size: #fff;
+            margin: 0px auto;
+            /* border: 2px solid #fff; */
+            box-shadow: 0 15px 40px rgb(0, 0, 0, .5);
+            border-radius: 500px;
+        }
+
+        .container .left {
+            float: left;
+            width: 50%;
+            height: 500px;
+            background: url(loginbg.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            box-sizing: border-box;
+            background-position: cover;
+        }
+
+
+        .container .right {
+            float: right;
+            width: 50%;
+            /* height: 800px; */
+            box-sizing: border-box;
+color: rgb(156, 155, 155);
+        }
+
+        .formBox {
+            /* width: 100%; */
+            padding: 14px 14px;
+            box-sizing: border-box;
+            height: 500px;
+            background: #fff;
+            font-size: smaller;
+            color: rgb(156, 155, 155);
+        }
+
+        .formBox p {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            color: rgb(19, 11, 11);
+        }
+
+        .formBox input {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .formBox input[type="text"],
+        .formBox input[type="text"],
+        .formBox input[type="password"] {
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;
+            height: 40px;
+        }
+
+        .button {
+            border: none;
+            color: rgb(15, 4, 4);
+            font-size: small;
+            border-radius: 34px;
+            width: 200px;
+            height: 50px;
+            margin-left: 100px;
+            background: linear-gradient(-60deg, rgb(109, 180, 203) 50%, rgb(53, 201, 238) 50%)
+        }
+
+        .input span {
+            color: black;
+            font-size: large;
+            position: sticky;
+        }
+
+        .input span1 {
+            color: blue;
+            text-decoration: underline;
+            font-size: large;
+            position: sticky;
+            padding-left: 48px;
+        }
+
+        .formBox h2 {
+            text-align: center;
+            color: #48c0e8;
+            margin-top: 5px;
+            font-size: x-large;
+        }
+
+        /* .formBox {
+        position: relative;
+    }
+     /* .formBox span{
+        position: absolute;
+        top:0;
+        color:#262626
+    }  */
+        .formBox strong {
+            font-size: 15px;
+            color: blue;
+            text-decoration-line: underline;
+        }
+
+        .fa-regular {
+            float: right;
+        }
+
+        .fa-solid {
+            float: right;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .password {
+            float: right;
+        }
+
+        .container.remember-forget {
+            position: static;
+            justify-content: space-between;
+            font-size: 14.5px;
+            margin: -3px 0 7px;
+            margin-right: -20px;
+            margin-left: -2.9px;
+        }
+
+        .remember-forget label input {
+            accent-color: white;
+            /* margin: -198px; */
+            position: relative;
+            top:32px;
+            left:-208px;
+        }
+
+        .remember-forget a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* .remember forget{
+        display: flex;
+        justify-content: space-between;
+        font-size:14.5px ;
+        margin:-15px 0 15px;
+      } */
+        /* .checkbox {
+        display: block;
+        margin-bottom: 10px;
+        margin-right: 5px;
+      }
+      .checkbox {
+        margin-right: 5px;
+      }  */
+    </style>
+</head>
+
+<body>
+    <!-- <div class="title"> -->
+    <!-- <h1>LOGIN IN FORM</h1> -->
+
+    <!-- </div> -->
+    <div class="container">
+        <div class="left">
+            <!-- <h1>LOGIN</h1> -->
+        </div>
+        <div class="right">
+            <div class="formBox">
+                <form>
+                    <h2>LOGIN </h2>
+                    <p> NAME<i class="fa-regular fas fa-user"></i><br></p>
+                    <input type="text" name="" placeholder="user name">
+                    <p> EMAIL ID<i class="fa-solid fa-envelope"></i><br></p>
+                    <input type="text" name="" placeholder="my email">
+                    <p> PASSWORD<i class="fa-solid fas fa-key"></i></p>
+                    <input type="password" name="" placeholder="*&nbsp;*&nbsp;*&nbsp;*&nbsp;*&nbsp;*">
+
+                    <!--                     
+                  <div>  <input type="checkbox">Remember me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <a href="">Forget Password</a></div> -->
+
+
+                    <div class="remember-forget">
+
+                        <label><input type="checkbox">&nbsp;&nbsp;Remember
+                            me</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#">Forget Password</a>
+                    </div> 
+
+
+                    <!-- <input type="checkbox"> Remember me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong>Forget Password?</strong>
+                    <br><br><br> -->
+
+
+                   <!-- <div class="remember forget">
+                            <label> <input type="checkbox"> Remember me</label>
+                            <a href="#"> Forget password?</a>
+                        </div>  -->
+
+                        <!-- <div class="checkbox"></div>
+                        <label for="remember">
+                            <input type="checkbox" id="rememberMe"> Remember me
+                        </label>
+                        <div class="bottom-links"></div>
+                        <a href="#">Forget password?</a> -->
+                    <br>
+                    <button class="button"><b>LOGIN</b></button>
+                    <br><br><br><br>
+                    <div class="input">
+                        <span>Don't have an
+                            account?</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span1>Register</span1>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
