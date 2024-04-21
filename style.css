@@ -1,6 +1,5 @@
 * {
   margin: 0px;
-  /* padding: 5px; */
   box-sizing: border-box;
 }
 
@@ -35,8 +34,6 @@
   background-repeat: no-repeat;
   background-position: left;
   background-size: 100% 100%;
-  /* justify-content: space-around; */
-  /* float: left; */
   display: inline-block;
   color: white;
   height: 543px;
@@ -71,7 +68,6 @@ login {
 }
 
 body {
-  /* border: 2pxsolid white; */
   background-color: white;
   background-image: url(bgimg.jpg);
   background-repeat: no-repeat;
@@ -100,7 +96,6 @@ body {
 
 .register {
   border: none;
-  /* border-bottom: 2px solid grey; */
   padding: 5px 10px;
   outline: none;
   width: 50%;
@@ -131,10 +126,9 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  margin: 4px 25px;
+  margin: 5px 78px;
   cursor: pointer;
   border-radius: 100px;
-  /* float:right; */
 }
 
 .placeholder {
